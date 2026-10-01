@@ -46,6 +46,8 @@ Test one important hypothesis at a time when possible.
 
 Prefer the cheapest discriminating test.
 
+Do not repeat the same failed command or fix without new evidence or a changed hypothesis. If the same blocker persists and no safe, useful check remains, stop retrying and report what is blocked and why.
+
 Do not reinstall environments or rewrite large areas before establishing evidence that they are involved.
 
 # Environment

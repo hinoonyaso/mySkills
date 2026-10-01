@@ -16,6 +16,24 @@
 
 작업 목적에 필요한 Skill만 선택합니다. 복합 작업에서는 예를 들어 신규 기능은 `architecture-planning → coding → testing-validation`, 버그 수정은 `debugging → coding → testing-validation` 순서로 연결할 수 있습니다.
 
+## AI Agent 용어 적용 범위
+
+이 저장소는 아래 개념을 별도 Skill로 늘리지 않고 기존 7개 작업 절차에 녹입니다.
+
+| 개념 | 이 구성에서의 적용 |
+| --- | --- |
+| Prompt Engineering | 공용 지침과 작업별 Skill로 역할·규칙·완료 기준을 안내 |
+| Context / Retrieval Engineering | 현재 프로젝트와 버전에 맞는 코드·문서만 선택하고 출처를 확인 |
+| Memory Engineering | 구현 결정과 재사용 가치가 검증된 해결 경험을 프로젝트 문서에 기록 |
+| Tool Engineering / MCP | 필요한 최소 도구만 쓰고 외부 데이터와 도구 권한을 검증 |
+| Harness Engineering / Scaffolding | 저장소 지침, 실행 환경, 검증 명령, 권한과 피드백을 연결 |
+| Workflow / Loop / Trajectory / State | 과제에 맞게 순서를 정하고, 실패에서 새 근거를 얻어 반복하며 진행 상태를 유지 |
+| Evaluation / Observability | 완료 기준, 명령·조건·결과를 기록하고 검증 상태를 근거와 함께 보고 |
+| Guardrail / Governance | 비밀 정보, 권한, 파괴적 변경과 사용자 결정의 경계를 지킴 |
+| Inference Engineering | 모델 실행 성능이 핵심인 Edge AI 작업에서만 적용 |
+
+MCP 연동이나 모델 추론 최적화는 해당 기술이 실제 과제에 필요할 때만 사용합니다. 문서상 절차와 현재 실행 환경의 기능을 구분하고, 도구·검증 기능을 사용할 수 없으면 그 제한을 보고합니다.
+
 ## 저장소 구조
 
 ```text

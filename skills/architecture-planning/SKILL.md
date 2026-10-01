@@ -27,7 +27,7 @@ Requirement
 → Implementation Order
 → Acceptance Criteria
 
-Understand only the parts of the existing repository needed for the design.
+Understand only the parts of the existing repository needed for the design. Prefer nearby project guidance and the authoritative source for each fact; check documentation against the project's actual dependency/runtime version. Mark anything not verified as an assumption.
 
 # Requirements
 
