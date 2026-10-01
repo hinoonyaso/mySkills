@@ -114,10 +114,11 @@ After fixing, repeat the original reproduction steps.
 
 ## Reusable Lessons
 
-After a confirmed fix, decide whether the cause and solution are likely to help with future work. Do not record every failed guess or one-off error.
+After a confirmed fix, decide whether its rationale or cause is likely to help with future work. Do not record every failed guess or one-off error.
 
-- For a recurring or useful project-specific issue, add a concise note to the project's existing troubleshooting or operations documentation. Create a new note only when it has lasting value and no suitable place exists.
-- Record the context and symptom, confirmed cause, successful fix, verification evidence, and prevention or detection hint. Keep it short enough to find and apply later.
+- For a consequential fix or a recurring project-specific issue, add a concise note to the project's existing decision, troubleshooting, or operations documentation. Create a new note only when it has lasting value and no suitable place exists.
+- Explain the symptom and context, confirmed cause, chosen fix, relevant alternatives, why this fix fits, supporting evidence, trade-offs or assumptions, verification, and prevention or detection hint. For a simple local bug fix, a concise rationale in the change summary may be enough.
+- Keep the record focused on evidence that supports the decision, such as requirements, observed behavior, official version-specific documentation, measurements, or test results. Label unverified explanations as assumptions.
 - Do not include secrets, personal data, raw sensitive logs, or environment-specific credentials.
 - A lesson belongs in the shared Skills only when it is general, verified, and useful across projects. Surface it as a proposed improvement; change shared Skills only when the user asks.
 
@@ -133,4 +134,4 @@ Verification
 Remaining uncertainty
 Prevention.
 
-If a verified lesson is likely to recur, capture it using Reusable Lessons; otherwise summarize the prevention briefly without creating a durable record.
+If the fix has lasting rationale or a verified lesson is likely to recur, capture it using Reusable Lessons; otherwise summarize the prevention briefly without creating a durable record.

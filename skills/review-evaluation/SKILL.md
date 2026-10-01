@@ -27,7 +27,7 @@ Evaluate relevant areas:
 
 # Evaluate the Proposed Approach
 
-When the user presents a design or implementation idea, assess it against the stated outcome and constraints. Explain material downsides with concrete consequences and recommend a better option when warranted. Separate must-fix issues from tradeoffs and preferences; keep the review proportional and preserve the user's chosen direction when its tradeoffs are acceptable.
+When the user presents a design or implementation idea, assess it against the stated outcome and constraints. Check whether consequential choices have a clear rationale supported by requirements, observed behavior, authoritative documentation, or measurements, and whether assumptions and trade-offs are visible. Explain material downsides with concrete consequences and recommend a better option when warranted. Separate must-fix issues from tradeoffs and preferences; keep the review proportional and preserve the user's chosen direction when its tradeoffs are acceptable.
 
 # Change Review
 

@@ -50,7 +50,7 @@ Do not invent missing requirements.
 
 # Module Design
 
-For consequential choices, record the chosen option, a viable alternative, and the reason for the choice.
+For consequential choices, record the chosen option, viable alternatives, the reason for the choice, and evidence that supports it (such as requirements, observed system behavior, authoritative documentation, measurements, or experiments). Mark assumptions separately and state the accepted trade-offs.
 
 For important modules define:
 
@@ -155,7 +155,7 @@ Better:
 
 Provide:
 
-Architecture decision
+Architecture decision and rationale (chosen option, alternatives, supporting evidence, trade-offs)
 → Module/data flow
 → Important interfaces
 → Implementation order

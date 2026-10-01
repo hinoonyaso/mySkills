@@ -35,6 +35,8 @@ For data or database changes, preserve schema and data compatibility where requi
 
 Update user-facing, operational, or developer documentation when behavior, setup, interfaces, or deployment steps change. Keep the change log/release notes and version metadata aligned when the repository uses them. Avoid unrelated documentation churn.
 
+For decisions with lasting impact, record why the implementation was chosen, which real alternatives were considered, and what evidence supports the choice. Include relevant constraints, assumptions, trade-offs, and validation. Use the project's existing ADR/design documentation; create a concise decision note only when the decision is consequential and no suitable record exists. Do not document trivial implementation details.
+
 
 For broad changes, public interface changes, schema changes, or other high-impact edits, first make the scope and change sequence clear. Follow repository and user approval requirements before actions that cross an approval boundary.
 
