@@ -112,6 +112,15 @@ Apply the smallest fix that addresses the confirmed cause. Keep a narrow correct
 
 After fixing, repeat the original reproduction steps.
 
+## Reusable Lessons
+
+After a confirmed fix, decide whether the cause and solution are likely to help with future work. Do not record every failed guess or one-off error.
+
+- For a recurring or useful project-specific issue, add a concise note to the project's existing troubleshooting or operations documentation. Create a new note only when it has lasting value and no suitable place exists.
+- Record the context and symptom, confirmed cause, successful fix, verification evidence, and prevention or detection hint. Keep it short enough to find and apply later.
+- Do not include secrets, personal data, raw sensitive logs, or environment-specific credentials.
+- A lesson belongs in the shared Skills only when it is general, verified, and useful across projects. Surface it as a proposed improvement; change shared Skills only when the user asks.
+
 # Output
 
 Report:
@@ -123,3 +132,5 @@ Fix
 Verification
 Remaining uncertainty
 Prevention.
+
+If a verified lesson is likely to recur, capture it using Reusable Lessons; otherwise summarize the prevention briefly without creating a durable record.

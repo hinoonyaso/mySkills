@@ -49,6 +49,10 @@ cp -r /path/to/mySkills/skills/<skill-name> .claude/skills/
 
 여러 Skill을 사용할 때는 필요한 디렉터리마다 복사 명령을 실행합니다. `<skill-name>`은 위 목록의 이름으로 바꿉니다. 예를 들어 `coding`을 적용하려면 `skills/coding` 디렉터리를 복사합니다.
 
+## 해결 경험 기록
+
+해결 경험은 반복 가능하고 원인이 확인된 경우에만 프로젝트 문서에 간단히 기록합니다. 여러 프로젝트에 적용할 수 있는 교훈은 검증 후 공용 Skill 개선 후보로 제안하며, 일회성 실패나 민감 정보는 축적하지 않습니다.
+
 ## 관리 원칙
 
 - Skill 이름은 폴더명 및 frontmatter의 `name`과 일치시킵니다.
